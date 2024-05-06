@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """stockprice.py - get stock price from Yahoo and add to
 Elasticsearch.
-See README.md or https://github.com/shirosaidev/stocksight
+See README.md or https://github.com/mvsakrishna/stocksight
 for more information.
 
 Copyright (C) Chris Park 2018-2020
@@ -187,7 +187,7 @@ if __name__ == '__main__':
     |_   _|_| |___|___|_,_|_   _|_|_  |_|_|_|  
       |_|                   |_|   |___|                
           :) = +$   :( = -$    v%s
-     https://github.com/shirosaidev/stocksight
+     https://github.com/mvsakrishna/stocksight
             \033[0m""" % (color, STOCKSIGHT_VERSION)
         print(banner + '\n')
 
